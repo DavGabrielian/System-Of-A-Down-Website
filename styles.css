@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(50, 50, 50);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+  padding: 0 18%;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("img/soad-home.jpg");
+  background-blend-mode: multiply;
+  background-size: 40rem;
+  padding-bottom: 1rem;
+}
+
+.name {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  font-size: 4em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  color: white;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 1.5em;
+}
+
+.img {
+  float: left;
+  margin: 15px;
+  border-radius: 15%;
+}
+
+.main-footer {
+  background-color: rgb(170, 170, 170);
+  color: white;
+  padding: 0.3em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+.footer-nav li {
+  padding: 0 0.5em;
+  display: inline;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.7em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: 13em 15% 2em 15%;
+  color: white;
+  border: 2px solid rgb(117, 117, 117);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: 0.9em;
+}
+
+.tour-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: rgb(170, 170, 170);
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.btn-primary:hover {
+  background-color: rgb(100, 100, 100);
+}
