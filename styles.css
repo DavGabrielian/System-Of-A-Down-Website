@@ -21,6 +21,7 @@ body {
 .nav a {
   display: inline-block;
   padding: 0.5em;
+  flex: 1 1 0;
   color: white;
   text-decoration: none;
 }
@@ -50,9 +51,9 @@ body {
 .name {
   text-align: center;
   margin: 0;
-  padding: 50px;
-  font-size: 4em;
-  font-family: "Times New Roman", Times, serif;
+  padding: 35px;
+  font-size: 3em;
+  font-family: 'Rock Salt', cursive;
   font-weight: normal;
   color: white;
 }
